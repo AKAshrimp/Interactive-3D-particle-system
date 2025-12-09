@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Heart Particles 3D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 標題文字 -->
+    <h1 class="title">Hand Heart Particles 3D</h1>
+
+    <!-- Three.js 3D 場景容器 -->
+    <div id="three-container"></div>
+
+    <!-- Webcam 小視窗（debug 用） -->
+    <video id="webcam" autoplay playsinline muted></video>
+
+    <!-- 手勢狀態提示 -->
+    <div id="gesture-hint">
+        <p>✊ 握拳 → 愛心聚合</p>
+        <p>🖐️ 張開 → 星空散開</p>
+        <p>👋 移動手掌 → 旋轉 3D</p>
+    </div>
+
+    <!-- 狀態顯示 -->
+    <div id="status">載入中...</div>
+
+    <!-- 使用 ES modules -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
